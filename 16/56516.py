@@ -1,4 +1,5 @@
 import sys
+
 sys.setrecursionlimit(50000)
 
 
@@ -12,8 +13,7 @@ def f(a, b):
 
 
 count = 0
-for a in range(1000):
-    for b in range(1000):
-        if f(a, b) == 1048576:
-            count += 1
+for a in range(1, 1048576 + 1):
+    if 1048576 % a == 0:
+        count += 1
 print(count)
