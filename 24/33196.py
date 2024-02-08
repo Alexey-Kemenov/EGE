@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+line = open('33196.txt').readlines()
+
+
+
+=======
 from collections import Counter
 
 line = open('33196.txt').readline()
@@ -20,3 +26,4 @@ print(letter)
 
 #count = Counter(letters).most_common()[0]
 #print(count)
+>>>>>>> origin/master
